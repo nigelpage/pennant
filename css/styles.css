@@ -3,27 +3,85 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
-  background-color: whitesmoke;
+  background: linear-gradient(to bottom right, dodgerblue, white, lemonchiffon);
   margin: 5px;
-  padding: 0;
 }
 
-.roundDetails {
-  columns: 4 10px;
-  color: green;
-  display: flex;
-}
-
-.roundDetails p {
-  flex: 1;
+h1 {
   text-align: center;
-  padding: 5px;
-  background-color: aquamarine;
-  border: 2px solid red;
+  margin: 1rem;
+  font-size: 3rem;
 }
 
-.roundDetails span {
+.competition {
+  color: rgb(40, 40, 40);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.competition p {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.verticalRule {
+  width: 2px;
+  background-color: gray;
+  margin: 0 10px;
+}
+
+.round {
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.round p {
+  min-width: 250px;
+  max-width: 250px;
+  text-align: center;
+  text-transform: uppercase;
+  align-content: center;
+  background-color: dodgerblue;
+  border: 2px solid lemonchiffon;
+  border-radius: 30px;
+  padding: 10px;
+}
+.round a {
+  color: currentColor;
+  text-decoration: underline;
+}
+
+.round a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.round img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ionicon {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  fill: currentColor;
+}
+
+.round span {
   display: inline-block;
 }
