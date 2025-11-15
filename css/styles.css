@@ -31,7 +31,10 @@ strong {
 }
 
 .match {
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
   border-radius: 30px;
+  padding: 5px;
+  margin: 10px;
 }
 
 .competition {
@@ -39,7 +42,7 @@ strong {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .competition p {
@@ -76,7 +79,7 @@ strong {
   text-transform: uppercase;
   align-content: center;
   background-color: rgba(30, 143, 255, 0.1);
-  border: 1px solid black;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
   border-radius: 30px;
   padding: 10px;
 }
@@ -116,6 +119,7 @@ strong {
   font-size: 1.4rem;
   text-transform: uppercase;
   color: darkslategray;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
   border-radius: 30px;
   justify-content: center;
   padding: 10px;
@@ -123,7 +127,7 @@ strong {
 }
 
 .sideManager {
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 .sideManager strong {
@@ -150,7 +154,8 @@ strong {
   font-size: 1rem;
   text-transform: none;
   background-color: rgba(30, 143, 255, 0.312);
-  border-radius: 30px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+border-radius: 30px;
 }
 
 .duty {
@@ -169,6 +174,7 @@ strong {
   align-items: left;
   width: 100%;
   background-color: whitesmoke;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
   border-radius: 30px;
   text-align: left;
   padding: 10px;
